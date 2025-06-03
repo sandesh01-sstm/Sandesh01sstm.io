@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sandesh Dhungana - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #fff;
+      padding: 20px 50px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 20px;
+      color: #004aad;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+    .hero {
+      background: linear-gradient(to right, #004aad, #0059b3);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .hero img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-top: 20px;
+      object-fit: cover;
+    }
+    .buttons {
+      margin-top: 20px;
+    }
+    .buttons a {
+      text-decoration: none;
+      background: white;
+      color: #004aad;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #004aad;
+    }
+    .about p {
+      text-align: center;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+    .education {
+      border-left: 3px solid #004aad;
+      padding-left: 30px;
+    }
+    .edu-item {
+      margin-bottom: 30px;
+      position: relative;
+    }
+    .edu-item::before {
+      content: '';
+      position: absolute;
+      left: -12px;
+      top: 5px;
+      width: 15px;
+      height: 15px;
+      background: #004aad;
+      border-radius: 50%;
+    }
+    .skills {
+      text-align: center;
+    }
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    .skill-tags span {
+      background: #e0e0e0;
+      padding: 8px 15px;
+      border-radius: 20px;
+    }
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .contact-info {
+      flex: 1;
+      min-width: 250px;
+    }
+    .contact-info p {
+      margin-bottom: 10px;
+    }
+    .contact-form {
+      flex: 1;
+      min-width: 250px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .contact-form button {
+      background: #004aad;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+    }
+    footer {
+      background: #004aad;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Sandesh Dhungana</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Welcome to my portfolio..</h2>
+  <p>I am Sandesh Dhungana, passionate about tech, electronics, and creating impact through innovation.</p>
+  <img src="sandesh.jpg" alt="Sandesh Dhungana">
+  <div class="buttons">
+    <a href="#contact">Contact Me</a>
+    <a href="#about">Learn More</a>
+  </div>
+</div>
+
+<section id="about" class="about">
+  <h2>About Me</h2>
+  <p>
+    I’m Sandesh Dhungana. I'm currently involved in the electronics business and learning web development. I enjoy learning new things, using technology to solve real-world problems, and connecting with people through my work.
+  </p>
+</section>
+
+<section id="education" class="education">
+  <h2>My Education</h2>
+  <div class="edu-item">
+    <h3>Bachelor (Upcoming)</h3>
+    <p>Planned to pursue a Bachelor's in Computer Applications (BCA).</p>
+  </div>
+  <div class="edu-item">
+    <h3>+2 Science</h3>
+    <p>Completed Higher Secondary from a reputed institution with a focus on Science.</p>
+  </div>
+  <div class="edu-item">
+    <h3>School (SEE/SLC)</h3>
+    <p>Completed schooling in Nepal with strong academic foundations.</p>
+  </div>
+</section>
+
+<section class="skills">
+  <h2>My Skills</h2>
+  <div class="skill-tags">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>C</span>
+    <span>Java</span>
+    <span>Canva</span>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-info">
+    <p>Email: <a href="mailto:austinn9797@gmail.com">austinn9797@gmail.com</a></p>
+    <p>Phone: <a href="tel:+9779863580246">986-3580246</a></p>
+    <p>Instagram: <a href="https://instagram.com/kohli_stan170" target="_blank">@kohli_stan170</a></p>
+    <p>Location: Nepal</p>
+  </div>
+  <div class="contact-form">
+    <input type="text" placeholder="Your Name" />
+    <input type="email" placeholder="Your Email" />
+    <input type="text" placeholder="Subject" />
+    <textarea rows="4" placeholder="Your Message"></textarea>
+    <button>Send Message</button>
+  </div>
+</section>
+
+<footer>
+  © 2025 Sandesh Dhungana. All rights reserved.
+</footer>
+
+</body>
+</html>
