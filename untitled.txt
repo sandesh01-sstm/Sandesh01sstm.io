@@ -222,7 +222,7 @@
 </section>
 
 <footer>
-  © 2025 Sandesh Dhungana. All rights reserved.
+  © 2025 Sandesh . All rights reserved.
 </footer>
 
 </body>
